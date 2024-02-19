@@ -1,0 +1,29 @@
+{
+  "name": "superfund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.2",
+    "fs-extra": "^11.2.0",
+    "ganache": "^7.9.2",
+    "mocha": "^10.3.0",
+    "next": "^14.1.0",
+    "next-routes": "^1.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "solc": "^0.8.24",
+    "web3": "^4.4.0"
+  }
+}
